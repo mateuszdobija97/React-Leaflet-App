@@ -1,11 +1,13 @@
 import React from 'react'
+import { Home } from './pages/Home';
 
-const App = () => {
+const App: React.FC = () => {
+
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className="app">
+      <Home />
     </div>
   )
 }
 
-export default App
+export default App;
